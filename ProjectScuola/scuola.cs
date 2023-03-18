@@ -10,5 +10,7 @@ namespace ProgrammaScuola
     {
         private string nome, indirizzo;
         private DateTime orarioApertura, orarioChiusura;
+
+
     }
 }
