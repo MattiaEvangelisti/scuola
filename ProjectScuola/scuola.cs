@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace ProgrammaScuola
 {
@@ -19,6 +20,12 @@ namespace ProgrammaScuola
         public string ricercaAlunno()
         {
             return alunno;
+        }
+
+        public int numAlunni()
+        {
+            int i = 0;
+            return i;
         }
     }
 }
