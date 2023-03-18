@@ -27,5 +27,22 @@ namespace ProgrammaScuola
             return anno;
         }
 
+        #region metodi get e set
+        //GET
+        public string getNome()
+        { return nome; }
+        public string getCognome()
+        { return cognome; }
+        public int getAnni()
+        { return anni; }
+
+        //SET
+        public void setNome(string nuovoNome)
+        { nome = nuovoNome; }
+        public void setCognome(string nuovoCognome)
+        { cognome = nuovoCognome; }
+        public void setAnni(int nuoviAnni)
+        { anni = nuoviAnni; }
+        #endregion
     }
 }
