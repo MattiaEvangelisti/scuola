@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectScuola"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="835">
     <Grid>
-        
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="25" Margin="80,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Height="25" Margin="80,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtAnni" HorizontalAlignment="Left" Height="25" Margin="80,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <GroupBox HorizontalAlignment="Left" Height="238" Header="Inserimento alunno" Margin="10,51,0,0" VerticalAlignment="Top" Width="257"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Height="29" Margin="10,87,0,0" VerticalAlignment="Top" Width="44"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Height="29" Margin="10,121,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label Content="Anni" HorizontalAlignment="Left" Height="29" Margin="13,155,0,0" VerticalAlignment="Top" Width="41"/>
+        <Button x:Name="btnInsAlunno" Content="Inserisci alunno" HorizontalAlignment="Left" Height="36" Margin="25,204,0,0" VerticalAlignment="Top" Width="161"/>
+        <GroupBox HorizontalAlignment="Center" Height="238" Header="Modifica alunno" Margin="0,51,0,0" VerticalAlignment="Top" Width="257"/>
+        <TextBox x:Name="txtNewNome" HorizontalAlignment="Left" Height="25" Margin="374,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtNewCognome" HorizontalAlignment="Left" Height="25" Margin="374,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="txtNewAnni" HorizontalAlignment="Left" Height="25" Margin="374,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Height="29" Margin="304,87,0,0" VerticalAlignment="Top" Width="44"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Height="29" Margin="304,121,0,0" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Anni" HorizontalAlignment="Left" Height="29" Margin="308,155,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="btnModAlunno" Content="Modifica Alunno" HorizontalAlignment="Center" Height="36" Margin="0,204,0,0" VerticalAlignment="Top" Width="160"/>
+        <GroupBox HorizontalAlignment="Left" Height="118" Header="Ricerca Alunno" Margin="556,51,0,0" VerticalAlignment="Top" Width="257"/>
+        <TextBox x:Name="txtRicercaCognome" HorizontalAlignment="Left" Height="25" Margin="646,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Height="29" Margin="576,86,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button x:Name="btnRicercaAlunno" Content="Ricerca Alunno" HorizontalAlignment="Left" Height="36" Margin="591,123,0,0" VerticalAlignment="Top" Width="160"/>
+        <GroupBox HorizontalAlignment="Left" Height="108" Header="Ricerca Alunni" Margin="556,181,0,0" VerticalAlignment="Top" Width="257"/>
+        <TextBox x:Name="txtRicercaAnni" HorizontalAlignment="Left" Height="25" Margin="646,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Anni" HorizontalAlignment="Left" Height="29" Margin="576,211,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button x:Name="btnModAlunno_Copy1" Content="Ricerca Alunni" HorizontalAlignment="Left" Height="36" Margin="591,245,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="btnAlunni" Content="Calcolo Alunni Presenti nell'istituto" HorizontalAlignment="Center" Height="36" Margin="0,307,0,0" VerticalAlignment="Top" Width="289"/>
+
     </Grid>
 </Window>
