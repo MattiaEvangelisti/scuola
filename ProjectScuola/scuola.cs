@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammaScuola
 {
-    internal class scuoIa
+    internal class scuola
     {
         private string nome, indirizzo;
         private DateTime orarioApertura, orarioChiusura;
