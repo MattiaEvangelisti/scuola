@@ -8,6 +8,7 @@ using System.Windows;
 
 namespace ProjectScuola
 {
+    //COMMENTO PER VEDERE SE NON HO DISTRUTTO L'INTERO PROGRAMMA
     /// <summary>
     /// Logica di interazione per App.xaml
     /// </summary>
