@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProgrammaScuola;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,34 @@ namespace ProjectScuola
         public MainWindow()
         {
             InitializeComponent();
+        }
+        scuola Scuola = new scuola();
+        string nome, cognome;
+        int anni;
+
+        private void btnRicercaAlunno_Click(object sender, RoutedEventArgs e)
+        {
+            cognome = txtRicercaCognome.Text;
+            Scuola.RicercaAlunno(cognome);
+        }
+
+        private void btnModAlunno_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            anni = int.Parse(txtAnni.Text);
+            Scuola.RicercaAlunni(anni);
+        }
+
+        private void btnAlunni_Click(object sender, RoutedEventArgs e)
+        {
+            Scuola.RicercaAlunni();
+        }
+
+        private void btnInsAlunno_Click(object sender, RoutedEventArgs e)
+        {
+            nome = txtNome.Text;
+            cognome= txtCognome.Text;
+            anni = int.Parse(txtAnni.Text);
+            Scuola.InsertAlunno(nome, cognome, anni);
         }
     }
 }
