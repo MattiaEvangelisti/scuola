@@ -8,6 +8,17 @@ namespace ProgrammaScuola
 {
     internal class scuoIa
     {
+        private string nome, indirizzo;
+        private DateTime orarioApertura, orarioChiusura;
 
+        public string insertAlunno(string nome, string cognome, string anni)
+        {
+            alunno alunno = new alunno(nome, cognome, anni);
+            return nome;
+        }
+        public string ricercaAlunno()
+        {
+            return alunno;
+        }
     }
 }
